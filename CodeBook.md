@@ -6,9 +6,9 @@ I recommend to read the README and features.txt files in the original dataset to
 
 The final data set consists of the following features:
 
-"activity" 
-"subject" 
-"tBodyAcc-mean()-X" 
+"activity"
+"subject"
+"tBodyAcc-mean()-X"
 "tBodyAcc-mean()-Y"
 "tBodyAcc-mean()-Z"
 "tGravityAcc-mean()-X"
