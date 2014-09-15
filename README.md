@@ -10,14 +10,14 @@ and extract it into a folder of your choice. Extract the files of the .zip file.
 Please provide a folder structure as follows:
 
 * GettingAndCleandingData
-** test
-*** subject_test.txt
-*** X_test.txt
-*** Y_test.txt
-** train
-*** subject_test.txt
-*** X_test.txt
-*** Y_test.txt
+ * test
+  * subject_test.txt
+  * X_test.txt
+  * Y_test.txt
+ * train
+  * subject_test.txt
+  * X_test.txt
+  * Y_test.txt
 * activity_labels.txt
 * features.txt
 * features.info
