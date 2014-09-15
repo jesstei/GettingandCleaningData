@@ -105,4 +105,28 @@ The feature Activities describes which activity is performed by the subjects. Th
 ### Subject
 The data set consists of 30 volunteers. The feature subject describes a single person as an integer value.
 
+## Required libraries within run_analysis.R
+
+The following libraries are loaded by the run_analysis.R script: plyr, dplyr, data.table and tidyr.
+
+
+## Variables within run_analysis.R
+The variables activities, features, trainX,  trainY, trainSub, testSub, testY, testX are used to read in the data set. 
+
+columnNames provides the column names as string and are used to rename the labels from the columns of trainX and testX to descriptive variable names.
+
+observations consists of all data sets within testX and trainX. ActivitiesID is used to merge testY and trainY. Finally, subjects describes all participating persons and thus are used to merge testSub and trainSub.
+
+The variable subset only consists of columns with column name including mean and std and thus reduces the data set to 10299 observations and 86 variables.
+
+The variable firstdataset merges the variables subset, subjects and activitiesID to retrieve a complete dataset in a single variable. 
+
+firstdatasetActivity and firstdatasetSubject provide the activity and subject data as factor. This transformation is necessary to perform the next command. 
+
+The groupedDataSet consists of data grouped by eas of activity and subject. The dataset of groupedDataSet consists of 180 observations and 88 variables, because activity and subject is now duplicated. 
+These two columns are dropped using groupedDataSet[,90] = NULL and groupedDataSet[,89] = NULL.
+
+
+
+
 
