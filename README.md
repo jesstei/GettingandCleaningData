@@ -25,3 +25,5 @@ Please provide a folder structure as follows:
 
 The inertial folder could be deleted as it is not needed.
  
+## Code book
+The CodeBook.md provides information about the feature selection and cleaning process.
